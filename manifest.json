@@ -1,0 +1,20 @@
+{
+ "manifest_version": 3,
+ "name":"Colorful Renovation",
+ "version": "1.0.1",
+ "default_locale": "en",
+ "author": "bartosz1miastkowski@gmail.com",  
+ "description": "Colorful Renovation extension",
+ "icons": {
+    "128": "favicon128.ico",
+    "48": "favicon.ico",
+    "16": "favicon16.ico"
+ },
+ "browser_action": {
+    "default_icon": "favicon.ico",
+    "default.popup" : "popup.html"
+ },
+ "web_accessible_resources": "assets/fonts/Inter-Regular.ttf",
+ "homepage_url": "https://colorfulrenovation.co.uk/"
+
+}
